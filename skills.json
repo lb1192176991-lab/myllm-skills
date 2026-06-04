@@ -1,0 +1,37 @@
+{
+  "format": "myllm.skillpack.v1",
+  "name": "MyLLM Skills",
+  "description": "Curated open Agent-Skill format skills for MyLLM (instruction-only).",
+  "skills": [
+    {
+      "name": "meeting-notes",
+      "description": "Turn raw meeting notes or a transcript into clean minutes.",
+      "path": "skills/meeting-notes/SKILL.md"
+    },
+    {
+      "name": "commit-message",
+      "description": "Write a Conventional Commits message from a description of code changes.",
+      "path": "skills/commit-message/SKILL.md"
+    },
+    {
+      "name": "email-reply",
+      "description": "Draft a clear, professional email reply from a few bullet points and the desired tone.",
+      "path": "skills/email-reply/SKILL.md"
+    },
+    {
+      "name": "code-review",
+      "description": "Review a code snippet for bugs, security issues, and style, with concrete fixes.",
+      "path": "skills/code-review/SKILL.md"
+    },
+    {
+      "name": "flashcards",
+      "description": "Turn notes or a topic into a set of question/answer study flashcards.",
+      "path": "skills/flashcards/SKILL.md"
+    },
+    {
+      "name": "explain-simply",
+      "description": "Explain a complex topic in plain language with an everyday analogy.",
+      "path": "skills/explain-simply/SKILL.md"
+    }
+  ]
+}
