@@ -72,6 +72,16 @@
       "name": "decision-matrix",
       "description": "Weigh options against weighted criteria to support a decision.",
       "path": "skills/decision-matrix/SKILL.md"
+    },
+    {
+      "name": "git-undo",
+      "description": "Safely fix common git mistakes: wrong branch, bad commit, accidental add.",
+      "path": "skills/git-undo/SKILL.md"
+    },
+    {
+      "name": "cron-explain",
+      "description": "Translate cron expressions to plain English and flag edge cases.",
+      "path": "skills/cron-explain/SKILL.md"
     }
   ]
 }
