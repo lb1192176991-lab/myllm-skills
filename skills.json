@@ -82,6 +82,11 @@
       "name": "cron-explain",
       "description": "Translate cron expressions to plain English and flag edge cases.",
       "path": "skills/cron-explain/SKILL.md"
+    },
+    {
+      "name": "interview-questions",
+      "description": "Generate role-specific interview questions from a job title or description.",
+      "path": "skills/interview-questions/SKILL.md"
     }
   ]
 }
