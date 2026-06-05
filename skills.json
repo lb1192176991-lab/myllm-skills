@@ -32,6 +32,46 @@
       "name": "explain-simply",
       "description": "Explain a complex topic in plain language with an everyday analogy.",
       "path": "skills/explain-simply/SKILL.md"
+    },
+    {
+      "name": "summarize-url",
+      "description": "Summarize a web page or article from a URL — TL;DR plus key points.",
+      "path": "skills/summarize-url/SKILL.md"
+    },
+    {
+      "name": "research-brief",
+      "description": "Answer a question with a short, sourced research brief and citations.",
+      "path": "skills/research-brief/SKILL.md"
+    },
+    {
+      "name": "proofread",
+      "description": "Proofread and tighten text, fixing grammar, clarity and tone, and show what changed.",
+      "path": "skills/proofread/SKILL.md"
+    },
+    {
+      "name": "sql-query",
+      "description": "Write a SQL query from a plain-English request and a table schema.",
+      "path": "skills/sql-query/SKILL.md"
+    },
+    {
+      "name": "regex-builder",
+      "description": "Build and explain a regular expression from a description, with examples.",
+      "path": "skills/regex-builder/SKILL.md"
+    },
+    {
+      "name": "unit-tests",
+      "description": "Write unit tests for a function or module, covering edge and error cases.",
+      "path": "skills/unit-tests/SKILL.md"
+    },
+    {
+      "name": "changelog",
+      "description": "Turn a list of commits or changes into a Keep a Changelog release.",
+      "path": "skills/changelog/SKILL.md"
+    },
+    {
+      "name": "decision-matrix",
+      "description": "Weigh options against weighted criteria to support a decision.",
+      "path": "skills/decision-matrix/SKILL.md"
     }
   ]
 }

@@ -38,6 +38,14 @@ Every install asks you to confirm in the app first.
 | `code-review` | Review a snippet for bugs, security, and style |
 | `flashcards` | Turn notes or a topic into Q/A study flashcards |
 | `explain-simply` | Explain a complex topic in plain language with an analogy |
+| `summarize-url` | Summarize a web page or article from a URL |
+| `research-brief` | Answer a question with a short, sourced research brief |
+| `proofread` | Fix grammar, clarity, and tone — and show what changed |
+| `sql-query` | Write a SQL query from plain English and a schema |
+| `regex-builder` | Build and explain a regular expression with examples |
+| `unit-tests` | Write unit tests covering edge and error cases |
+| `changelog` | Turn commits into Keep a Changelog release notes |
+| `decision-matrix` | Weigh options against weighted criteria |
 
 ## Layout
 
