@@ -1,6 +1,9 @@
 # MyLLM Skills
 
-A curated, open collection of **Skills** for [MyLLM](https://apps.apple.com/gb/app/myllm-local-ai-agent/id6760704297) — the private, on-device AI agent for iOS.
+[![Download on the App Store](https://img.shields.io/badge/Download_on_the-App_Store-0A84FF?logo=apple&logoColor=white)](https://apps.apple.com/gb/app/myllm-local-ai-agent/id6760704297)
+[![Marketplace](https://img.shields.io/badge/Browse-Marketplace-5E5CE6)](https://www.opticell-limited.com/myllm-wiki#skills)
+
+A curated, open collection of **Skills** for [MyLLM](https://apps.apple.com/gb/app/myllm-local-ai-agent/id6760704297) — the private, on-device AI agent for iOS. Get the app on the [App Store](https://apps.apple.com/gb/app/myllm-local-ai-agent/id6760704297).
 
 A **Skill** is a small bundle of reusable instructions in the open **Agent-Skill format**: a `SKILL.md` file with simple frontmatter (`name`, `description`) followed by a markdown body of guidance. MyLLM shows the model each skill's name and description, and loads the full instructions **on demand** when a task matches — so skills add know-how without bloating every prompt.
 
