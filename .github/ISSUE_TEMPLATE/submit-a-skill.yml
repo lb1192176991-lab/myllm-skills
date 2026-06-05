@@ -1,0 +1,50 @@
+name: Submit a skill
+description: Propose a new instruction-only Skill for the collection
+title: "[skill] <name>"
+labels: ["skill-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Skills here are **instruction-only** — markdown guidance, no scripts, no network. You can also open a pull request directly (see [CONTRIBUTING](../blob/main/CONTRIBUTING.md)); this form is the easy path.
+  - type: input
+    id: name
+    attributes:
+      label: Skill name
+      description: Lowercase, hyphenated (a–z, 0–9, hyphen, underscore). Becomes the folder and the install name.
+      placeholder: cover-letter
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: One-line description
+      description: What it does and *when to use it* — write it like a trigger, since the model uses it to decide relevance.
+      placeholder: Draft a tailored cover letter from a job description and a CV.
+    validations:
+      required: true
+  - type: textarea
+    id: body
+    attributes:
+      label: Instructions (the SKILL.md body)
+      description: The step-by-step guidance the model should follow. Tell it the output shape. Keep it focused.
+      render: markdown
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: We publish under MIT. Leave as-is unless your skill must carry a different license.
+      value: MIT
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Please confirm
+      options:
+        - label: This is instruction-only — no scripts, no network calls.
+          required: true
+        - label: It contains no prompt-injection (doesn't tell the model to ignore the user, exfiltrate data, or override safety).
+          required: true
+        - label: I'm happy for it to be published under the repo's MIT license, with credit.
+          required: true

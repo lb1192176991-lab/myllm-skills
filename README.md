@@ -9,6 +9,13 @@ A **Skill** is a small bundle of reusable instructions in the open **Agent-Skill
 
 These skills are **instruction-only** (Tier 1): they contain no scripts and no network calls. The model follows them using the tools it already has.
 
+<!-- Demo GIF goes here once recorded: scan/install a skill → ask for the task → watch it run.
+     Save as docs/demo.gif and uncomment:
+![MyLLM loading a skill on demand](docs/demo.gif)
+-->
+
+> **Add your own skill in ~2 minutes** → [open the "Submit a skill" form](https://github.com/TeamDzX/myllm-skills/issues/new?template=submit-a-skill.yml) or send a PR (one `SKILL.md`). See [CONTRIBUTING](CONTRIBUTING.md). New ideas to claim are in [`good first issue`](https://github.com/TeamDzX/myllm-skills/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22). If these are useful, a ⭐ helps others find them.
+
 ## Install
 
 **From the app (recommended)** — in any chat:

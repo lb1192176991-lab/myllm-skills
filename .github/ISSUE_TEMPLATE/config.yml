@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Get MyLLM on the App Store
+    url: https://apps.apple.com/gb/app/myllm-local-ai-agent/id6760704297
+    about: The private, on-device iOS AI agent these skills run in.
+  - name: Browse skills on the Marketplace
+    url: https://www.opticell-limited.com/myllm-wiki#skills
+    about: Install any skill with one tap.
